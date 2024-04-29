@@ -1,0 +1,94 @@
+body{
+margin: 0;
+    font-family: "Roboto", sans-serif;
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 63%, rgba(255,0,232,1) 63%);
+}
+.korobka{
+    height: 99vh;
+    margin: 15px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero{
+    background-color: #ff00e8
+;
+    display: flex;
+    color:#f603e0;
+    height: 90vh;
+}
+h1{
+    font-size: 10px;
+    margin: 15px 0 15px 0;
+}
+h2{
+    font-size: 30px;
+    margin: 0;
+}
+img{
+    z-index: 99;
+    width: 70%;
+    height: 100px;
+}
+.krug{
+    z-index: 1;
+    top: 100px;
+    left: calc(50% + 50px);
+    position: absolute;
+    width: 900px;
+    height: 900px;
+   background: rgb(255,0,0);
+background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(3,246,88,1) 100%);  
+    border-radius: 100%;   
+}
+.prizrak{
+    width: 80px;
+    position: absolute;
+}
+.top200{
+    top: 200px;
+}
+.top300{
+    top: 300px;
+}
+.top400{
+    top: 400px;
+}
+.top500{
+    top: 500px;
+}
+.top600{
+    top: 600px;
+}
+.navbar{
+    z-index: 7;
+    position: fixed;
+    margin: 0;
+    background-color: #0009ff;
+    box-shadow: 2px 0 5px 0px black;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    height: 310px;
+    width: 100%;
+    top: 100px;
+    rotate: 30deg;
+}
+    
+}
+}
+.logo{
+    font-size: 30px;
+    font-c :#ff00e8;
+    margin: 0 50px 0 50px;
+    font-family: "Rock 3D", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 0 0 50px;
+}
